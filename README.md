@@ -10,6 +10,6 @@
 helm repo add myrepo1 https://HyominAn0401.github.io/aws9Chart1
 helm install myrelease1 myrepo1/nginx-chart
 
-of
+or
 helm install myrelease1 myrepo1/nginx-chart --set replicaCount=8
 ```
